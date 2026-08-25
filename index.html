@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obrigado pela sua compra!</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    body { background-color: #f4f6f8; color: #333; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
+    .container { background: #ffffff; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); max-width: 600px; width: 100%; padding: 40px; text-align: center; }
+    .icon-success { width: 80px; height: 80px; background-color: #e6f4ea; color: #137333; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 40px; margin: 0 auto 20px; }
+    h1 { font-size: 26px; margin-bottom: 10px; color: #1a1a1a; }
+    p.subtitle { color: #666; font-size: 15px; margin-bottom: 30px; }
+    .order-box { background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; margin-bottom: 30px; text-align: left; }
+    .order-box h3 { font-size: 16px; margin-bottom: 12px; border-bottom: 1px solid #dee2e6; padding-bottom: 8px; }
+    .order-details { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 14px; }
+    .order-details span.label { color: #666; }
+    .order-details span.value { font-weight: 600; }
+    .btn { display: inline-block; width: 100%; background-color: #0066ff; color: #ffffff; text-decoration: none; padding: 14px; border-radius: 6px; font-weight: 600; transition: background 0.2s; }
+    .btn:hover { background-color: #0052cc; }
+    .support-text { margin-top: 20px; font-size: 13px; color: #888; }
+    .support-text a { color: #0066ff; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="icon-success">✓</div>
+    <h1>Obrigado pelo seu pedido!</h1>
+    <p class="subtitle">Sua compra foi processada com sucesso. Enviamos os detalhes do acesso para o seu e-mail.</p>
+
+    <div class="order-box">
+      <h3>Resumo do Pedido</h3>
+      <div class="order-details">
+        <span class="label">Número do Pedido:</span>
+        <span class="value">#10492</span>
+      </div>
+      <div class="order-details">
+        <span class="label">Status do Pagamento:</span>
+        <span class="value" style="color: #137333;">Aprovado</span>
+      </div>
+      <div class="order-details">
+        <span class="label">Método de Pagamento:</span>
+        <span class="value">PIX / Cartão</span>
+      </div>
+    </div>
+
+    <!-- Altere o href para o link do seu produto/área de membros -->
+    <a href="#" class="btn">Acessar Meu Produto Agora</a>
+
+    <p class="support-text">
+      Dúvidas sobre o pedido? <a href="#">Fale com o suporte</a>.
+    </p>
+  </div>
+
+</body>
+</html>
